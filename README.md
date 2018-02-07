@@ -1,4 +1,4 @@
-# git-version-info  [![npm](https://img.shields.io/npm/v/git-version-info.svg?style=flat-square)](https://www.npmjs.com/package/git-version-info) [![David](https://img.shields.io/david/realb0t/git-version-info.svg?style=flat-square)](https://www.npmjs.com/package/git-version-info)
+# git-semver-info  [![npm](https://img.shields.io/npm/v/git-semver-info.svg?style=flat-square)](https://www.npmjs.com/package/git-semver-info) [![David](https://img.shields.io/david/realb0t/git-semver-info.svg?style=flat-square)](https://www.npmjs.com/package/git-semver-info)
 
 This library is intended for define semantic version of package by the git environment.
 It's inspired by [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/), [SemVer 2.0.0](https://semver.org/), [GitVersion](https://gitversion.readthedocs.io/en/latest/).
@@ -31,7 +31,7 @@ This definition available for following branches:
 
 `{commits}` - quantity commits from branch start.
 
-Prerelease path could be override with config file `git-version-info.json`.
+Prerelease path could be override with config file `git-semver-info.json`.
 This config file should be place into **current work directory**.
 
 Config file content (default value):
@@ -65,7 +65,7 @@ it's prerelease version looks like:
 ## Install
 
 ```
-$ npm i git-version-info -g
+$ npm i git-semver-info -g
 ```
 
 ## Usage
@@ -73,12 +73,12 @@ $ npm i git-version-info -g
 
 In package directory (where placed file **package.json**) run:
 ```
-$ git-version-info --help
+$ git-semver-info --help
 ```
 
 Output:
 ```
-Usage: git-version-info [options] [cwd]
+Usage: git-semver-info [options] [cwd]
 
 
 Options:

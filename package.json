@@ -1,18 +1,19 @@
 {
-  "name": "git-version-info",
+  "name": "git-semver-info",
   "version": "0.4.0",
-  "description": "GitVersion Info tool",
+  "description": "GitSemver Info tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "git-version-info": "./index.js"
+    "git-semver-info": "./index.js"
   },
   "keywords": [
     "git",
     "npm",
     "semver",
+    "git-semver",
     "git-version"
   ],
   "author": "Kazantsev Nickolay",

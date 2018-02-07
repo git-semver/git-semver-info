@@ -4,7 +4,7 @@ const path = require('path');
 const program = require('commander');
 
 const Output = require('./lib/output');
-const GitVersionInfo = require('./lib/git-version-info');
+const GitVersionInfo = require('./lib/git-semver-info');
 
 const defaultWorkDirectory = process.cwd();
 const version = require(path.join(__dirname, '/package.json')).version;
