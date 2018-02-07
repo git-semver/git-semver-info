@@ -9,6 +9,10 @@
   "bin": {
     "git-semver-info": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:git-semver/git-semver-info.git"
+  },
   "keywords": [
     "git",
     "npm",
